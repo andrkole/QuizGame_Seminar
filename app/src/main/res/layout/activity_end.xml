@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/starAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="happy_star.json"
+        app:lottie_loop="true"
+        app:lottie_speed="2"
+        app:lottie_url="https://lottiefiles.com/26186-happy-star" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sadStarAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="sad_star.json"
+        app:lottie_loop="true"
+        app:lottie_speed="2" />
+
+    <TextView
+        android:id="@+id/textCongrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="176dp"
+        android:text="Bravo, sjedi 5!"
+        android:textColor="#020D5C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEnd" />
+
+    <TextView
+        android:id="@+id/textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="131dp"
+        android:text="KRAJ!"
+        android:textColor="#020D5C"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textCongrats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textEndScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="50dp"
+        android:text="Rezultat:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/textEndScoreNum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCongrats" />
+
+    <TextView
+        android:id="@+id/textEndScoreNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:text="0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textEndScore"
+        app:layout_constraintTop_toBottomOf="@+id/textCongrats" />
+
+    <Button
+        android:id="@+id/buttonEndToHome"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="176dp"
+        android:background="@drawable/gradient_buttons"
+        android:text="Početna"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEndScoreNum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "773214614166",
+    "firebase_url": "https://quizgame-fe94f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "quizgame-fe94f",
+    "storage_bucket": "quizgame-fe94f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773214614166:android:39fd8a57f950a011f808b7",
+        "android_client_info": {
+          "package_name": "com.example.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773214614166-m34hvp8ks3ghfcb9kdupaf48fbk0bvu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKp88x30Cb2L91W2acs2TsdUrNCP-tOP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773214614166-m34hvp8ks3ghfcb9kdupaf48fbk0bvu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
