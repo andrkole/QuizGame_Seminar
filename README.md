@@ -1,2 +1,2 @@
 # QuizGame_Seminar
-Seminar za kolegij Mobilne Tehnologije (SOSS)
+Simple Quiz mobile app made as a seminar work for a college class.
